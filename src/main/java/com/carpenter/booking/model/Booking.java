@@ -18,7 +18,7 @@ public class Booking {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private long id;
 	@NotNull
-    @Size(min = 2, message = "please enter the  data ")
+    @Size(min = 2, message = "please enter the  data ") 
 	@Column
 	private String email;
 	@NotNull
