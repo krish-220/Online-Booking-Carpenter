@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('git repo and clean') {
             steps {
-                bat  "rmdir /s /q   customer"
+              //  bat  "rmdir /s /q   customer"
                 bat "git clone https://github.com/krish-220/Online-Booking-Carpenter.git"
                 bat "mvn clean -f customer"
             }
